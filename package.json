@@ -1,0 +1,35 @@
+{
+  "name": "serendip-hmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohsen Esmaeili <m-esm@hotmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/basic-auth": "^1.1.2",
+    "@types/fs-extra": "^5.0.4",
+    "@types/node": "^10.12.9",
+    "@types/underscore": "^1.8.8",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-deploy-ftp": "^1.0.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-typescript": "^4.0.2",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "express-basic-auth": "^1.1.6",
+    "fs-extra": "^7.0.1",
+    "glob": "^7.1.3",
+    "mailparser": "^2.4.0",
+    "path": "^0.12.7",
+    "promise-serial": "^0.1.5",
+    "serendip": "^1.0.20",
+    "underscore": "^1.9.1",
+    "weather-js": "^2.0.0"
+  }
+}
